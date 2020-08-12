@@ -1,0 +1,15 @@
+package question2;
+
+public class Pessoa {
+
+	public static void main(String[] args) {
+
+		
+		private String nome;
+		private String endereco;
+		private String telefone;
+	}
+	
+	
+
+}

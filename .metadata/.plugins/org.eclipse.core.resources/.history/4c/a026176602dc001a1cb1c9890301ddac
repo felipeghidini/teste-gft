@@ -1,0 +1,12 @@
+package question3;
+
+public class ContaCorrente extends Conta{
+	
+	ContaCorrente(){
+		super();	
+	}
+	
+	public Double rendimento() {
+		return getSaldo() * 0.03;
+	}
+}

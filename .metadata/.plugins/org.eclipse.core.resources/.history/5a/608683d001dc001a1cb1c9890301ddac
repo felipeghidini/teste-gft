@@ -1,0 +1,13 @@
+package question3;
+
+public class ContaPoupanca extends Conta{
+
+	ContaPoupanca(){
+		super();	
+	}
+	
+	public Double rendimento() {
+		return getSaldo() * 0.05;
+	}
+	
+}
